@@ -1,0 +1,73 @@
+main {
+    text-align: center;
+    margin-top: 1.4rem;
+
+
+    .infos {
+        margin-top: 2.3rem;
+
+        .mainTitle {
+
+            h1 {
+                font-size: 1.96rem;
+                font-weight: $Weights700;
+                color: $AlmostBlack;
+            }
+
+        }
+
+        .mainText {
+            margin-top: 1.1rem;
+            padding: 0 1.05rem 2.2rem 1.05rem;
+
+
+            p {
+                color: $MediumGray;
+                font-size: .9rem;
+                line-height: 1.45rem;
+            }
+        }
+
+        .mainBtn {
+            
+            .buttonLearn {
+                background-color: $AlmostBlack;
+                text-decoration: none;
+                color: $AlmostWhite;
+                border-radius: 15px;
+                font-size: .89rem;
+                padding: 1rem 1.25rem 1rem 1.25rem; 
+                cursor: pointer;
+            }
+
+        }
+    }
+
+    .clients {
+        margin-top: 3.3rem;
+
+        .clientsLogos {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 .8rem;
+
+            .logoDatabiz {
+                width: 4.7rem;
+            }
+
+            .logoAudiophile {
+                width: 3rem;
+            }
+
+            .logoMeet {
+                width: 3.7rem;
+            }
+
+            .logoMaker {
+                width: 3.2rem;
+            }
+
+        }
+    }
+}

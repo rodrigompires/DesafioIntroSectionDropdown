@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Desafio Front End Mentor">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Rodrigo Pires">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/91e0be7ef6.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <div class="mainHeader">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="Logo Snap">
+        </div>
+        <div class="hbMenu">
+          <img src="./images/icon-menu.svg" alt="Icone de menu do tipo hamburguer">
+        </div>     
+
+        <nav class="navMenu">
+          <div class="subMenu">
+            <img src="./images/icon-close-menu.svg" alt="Icone de um X representando o botão de fechar o menu"
+              class="iconClose">
+
+            <ul class="listMenu">
+
+              <li class="itemListMenu features"><a href="#">Features</a> <img class="iconArrow iconArrowFeatures" src="./images/icon-arrow-down.svg" alt="Icone seta" aria-hidden="true">
+                <ul class="subListFeatures">
+                  <li class="itemListFeatures"><img src="./images/icon-todo.svg" alt="Icone ToDo" class="iconsFeatures" aria-hidden="true">Todo List</li>
+                  <li class="itemListFeatures"><img src="./images/icon-calendar.svg" alt="Icone calendario" class="iconsFeatures" aria-hidden="true">Calendar</li>
+                  <li class="itemListFeatures"><img src="./images/icon-reminders.svg" alt="Icone sino" class="iconsFeatures" aria-hidden="true">Reminders</li>
+                  <li class="itemListFeatures"><img src="./images/icon-planning.svg" alt="Icone relógio" class="iconsFeatures" aria-hidden="true">Planning</li>
+                </ul>
+              </li>
+
+              <li class="itemListMenu company"><a href="#">Company</a> <img class="iconArrow iconArrowCompany" src="./images/icon-arrow-down.svg" alt="Icone seta" aria-hidden="true">
+                <ul class="subListCompany">
+                  <li class="itemListCompany">History</li>
+                  <li class="itemListCompany">Our Team</li>
+                  <li class="itemListCompany">Blog</li>
+                </ul>
+              </li>
+              <li class="itemListMenu"><a href="#">Careers</a></li>
+              <li class="itemListMenu"><a href="#">About</a></li>
+            </ul>
+
+            <div class="btns">
+              <a href="#" title="Login" class="buttonDefalt buttonLogin">Login</a>
+              <a href="#" title="Register" class="buttonDefalt buttonRegister">Register</a>
+            </div>
+
+          </div>
+        </nav>
+      </div>
+      
+    </header>
+
+    <main>
+        <section class="bkgImg grid">
+          <img src="./images/image-hero-mobile.png" alt="">
+        </section>
+      
+
+      <div class="grid">
+        <section class="infos">
+          <div class="mainTitle">
+            <h1>Make remote work</h1>
+          </div>
+
+          <div class="mainText">
+            <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+          </div>
+
+          <div class="mainBtn">
+            <a href="#" title="Learn More" class="buttonLearn">Learn more</a>
+          </div>
+        </section>
+
+        <section class="clients">
+          <div class="clientsLogos">
+            <img src="./images/client-databiz.svg" alt="Logo Databiz" class="logoDatabiz">
+            <img src="./images/client-audiophile.svg" alt="Logo AudioPhile" class="logoAudiophile">
+            <img src="./images/client-meet.svg" alt="Logo Meet" class="logoMeet">
+            <img src="./images/client-maker.svg" alt="Logo Maker" class="logoMaker">
+          </div>
+        </section>
+
+      </div>
+
+      <section class="bkgDesktop grid">
+        <img src="./images/image-hero-desktop.png" alt="">
+      </section>
+    </main>
+
+      <footer>
+        <div class="attribution">
+          <div class="textByChallenge">Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank">Frontend Mentor</a>.
+          </div>
+
+          <div class="footer"><span>Coded by </span>
+            <div class="author">
+              <p class="nameAuthor"><a href="#" class="name"
+                  ></a>
+              </p>
+            </div>
+          </div>
+
+
+          <ul class="iconSocials">
+            <li><a href="https://www.linkedin.com/in/rodrigo-josé-de-moraes-pires-72264035" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/rodrigompires?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
+        </div>
+    </footer>
+
+  </div>
+
+  <script src="./js/scripts.js"></script>
+</body>
+</html>

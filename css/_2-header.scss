@@ -1,0 +1,28 @@
+header {
+    padding: 1.3rem .9rem 0 .95rem;
+    
+    .hbMenu {
+        img {
+            cursor: pointer;
+        }
+    }
+
+    .mainHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;       
+    }
+}
+
+
+
+
+.bkgImg {
+    img {
+        max-width: 100%;
+    }
+}
+
+.bkgDesktop {
+    display: none;
+}
